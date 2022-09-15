@@ -1,0 +1,59 @@
+#sap{
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 200px;
+    color:sandybrown;
+    border: 2px solid skyblue;
+    border-radius: 15px;
+}
+h1{
+    text-align: left;
+    color: rgb(62, 98, 229);
+    font-size: 40px;
+    font-family: fantasy;
+}
+#ss{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(126, 168, 234);
+    width: 200px;
+    border: 2px solid coral;
+    border-radius: 15px;
+    
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: rgb(216, 122, 13);
+}
+form input{
+  font-size: 30px;
+  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(69, 90, 153);
+  border: 3px solid sandybrown;
+  border-radius: 10px;
+  
+  
+}
+form label{
+    color: rgb(240, 18, 18);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    border: 2px solid blue;
+    border-radius: 15px;
+    line-height: 80px;
+}
+form textarea{
+    font-size: 10px;
+  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(69, 90, 153);
+    border: 3px solid sandybrown;
+    border-radius: 10px;
+}
+#name{
+    font-size: large;
+    color: rgb(24, 216, 165);
+}

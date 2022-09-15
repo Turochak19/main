@@ -1,0 +1,92 @@
+textarea<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link  href="1.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>создаем меню</title>
+</head>
+<body>
+    <h1>Капишников Евгений</h1>
+    <h2>Опыт работы</h2>
+    <table>
+        <tr>
+            <td id ="sap">Название</td>
+            <td id="sap">Опыт</td> 
+            <td id="sap">Год</td>
+            
+        </tr>
+        <tr>
+            <td id="ss">Турочакская школа</td> 
+            <td id="ss">учитель</td> 
+            <td id="ss">1994</td>   
+        </tr>
+        <tr>
+            <td id="ss">ООО "Тестировщик"</td> 
+            <td id="ss">младший тестировщик</td> 
+            <td id="ss">2022-2023</td>   
+        </tr>
+        <tr>
+            <td id="ss">ООО "Вререст"</td> 
+            <td id="ss">верстальщик</td> 
+            <td id="ss">2023-2053</td>   
+        </tr>
+    </table>
+
+    <h1>Формы</h1>
+    <>
+       <div> 
+          <label for ="text">Фамилия</label>
+          <input type="text" id="text">
+       </div> 
+      <div>
+        <label for ="email">email</label>
+        <input type="email" id="text">
+      </div> 
+      <div>
+        <label for ="password">Пароль</label>
+        <input type="password" id="password">
+      </div> 
+      <div>
+        <label for ="number">числа</label>
+        <input type="number" id="number" min="2" max="10">
+      </div> 
+      <div>
+        <label for ="range">ползунок</label>
+        <input type="range" id="range" min="0" max="10" step="2">
+      </div> 
+      <div>
+        <label for ="date">Дата рождения</label>
+        <input type="date" id="date" >
+      </div> 
+      <div>
+        <label for ="color">Цвет</label>
+        <input type="color" id="color" >
+      </div> 
+      <div>
+        <label for ="message">Сообщение</label><br>
+        <textarea id="message" cols="20" rows="15" maxlength="150"></textarea>
+      </div> 
+      <div>
+        <label for ="sex" id ="sex">Пол</label>
+        <select>
+            <option value="m">M</option>
+            <option value="g" selected>Ж</option>
+        </select>
+      </div> 
+      <label >количество работ</label>
+      <input type="radio" name ="num" checked>1
+      <input type="radio" name ="num" >5
+      <input type="radio" name ="num">10+
+    </div>
+  <div> 
+  <label >Выбери несколько вариантов</label><br>
+  <input type="checkbox" name ="ch" >Книги<br>
+  <input type="checkbox" name ="ch" >телевизор<br>
+  <input type="checkbox" name ="ch">путешествия<br>
+</div>
+
+    </form>
+</body>
+</html>
